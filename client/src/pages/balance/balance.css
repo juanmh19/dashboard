@@ -1,0 +1,68 @@
+.Balance {
+    .Balance__conjunto {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 65vh;
+    }
+    .Balance__ganancias {
+        height: 50vh;
+        width: 30%;
+        background-color: rgb(26, 136, 26);
+        border-radius: 10px;
+    }
+    .Balance__gastos {
+        height: 50vh;
+        width: 30%;
+        background-color: rgb(141, 42, 35);
+        border-radius: 10px;
+    }
+    /* .Balance__ganancias {
+        height: 50vh;
+        width: 30%;
+        box-shadow: 0 0 5px 0 rgb(26, 136, 26);
+        border-radius: 10px;
+    }
+
+    .Balance__gastos {
+        height: 50vh;
+        width: 30%;
+        box-shadow: 0 0 5px 0 brown;
+        border-radius: 10px;
+    } */
+
+    .Balance__tipo {
+        font-size: 35px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .Balance__resultados {
+        font-size: 18px;
+        margin-top: 15px;
+        margin-left: 10%;
+    }
+    .Balance__cantidad--ganancia {
+        color: rgb(4, 243, 4);
+    }
+    .Balance__cantidad--gastos {
+        color: rgb(255, 0, 0);
+    }
+    .Balance__calculo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        height: 20vh;
+        width: 73%;
+        border: 3px solid rgba(33, 224, 160, 0.407);
+        border-radius: 10px;
+    }
+    .Balance__resultado {
+        font-size: 30px;
+    }
+    .Balance__resultados--final {
+        margin: 20px 0 0 0 ;
+        text-align: center;
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,58 @@
+.Principio {
+        display: grid;
+        grid-template-columns: repeat(4, 25%);
+        grid-template-rows: 100%;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        justify-items: center;
+    .principio__caja {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 85%;
+      color: white;
+      background-color: #202020;
+      height: 7rem;
+      border-radius: 10px;
+    }
+    .principio__porcentaje {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgba(11, 223, 11, 0.664);
+      height: 2rem;
+      width: 5rem;
+      border-radius: 10px;
+    }
+    .principio__titulo {
+      font-size: 18px;
+      color: rgba(255, 255, 255, 0.856);
+    }
+    .principio__valor {
+      font-size: 22px;
+      
+    }
+    .principio__imagen {
+      width: 25px;
+    }
+    .principio__derecha {
+      width: 35%;
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+      padding-right: 1rem;
+    }
+  }
+
+  @media (max-width: 780px) {
+    .Principio{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+    }
+    .principio__caja {
+      width: 70%!important;
+      margin-top: 10px;
+    }
+  }

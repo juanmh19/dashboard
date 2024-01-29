@@ -1,0 +1,104 @@
+.Equipo {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: space-evenly;
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+    .Equipo__tarjeta {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 80%;
+        width: 80%;
+        background-color: #212121;
+        border-radius: 20px;
+    }
+
+    .Equipo__caja {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Equipo__caja--informacion {
+        margin-top: 20px;
+        margin-left: 5%;
+    }
+
+    .Equipo__caja--informacion p {
+        margin: 5px 0;
+    }
+
+    .Equipo__foto {
+        width: 11rem;
+        height:11rem;
+        border-radius: 100%;
+        background-color: rgb(30, 30, 30);
+    }
+
+    .Equipo__nombre {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    .Equipo__caja--botones {
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .Equipo__submit {
+        background-color: rgb(30, 30, 30);
+        border: 1px solid rgba(33, 224, 160, 0.507);
+        border-radius: 5px;
+        width: 40%;
+        cursor: pointer;
+        margin: auto;
+    }
+
+    .Equipo__submit:hover {
+        background-color: rgba(33, 224, 160, 0.507);
+    }
+
+    .Equipo__submit--despedir {
+        border: 1px solid rgba(250, 38, 38, 0.596);
+    }
+
+    .Equipo__submit--despedir:hover {
+        background-color: rgba(250, 38, 38, 0.596);
+    }
+
+    .Equipo__input {
+        margin-left: 10px;
+        color: white;
+        width: 50%;
+        height: 18px;
+        background-color: #212121;
+    }
+    
+}
+
+@media (max-width: 980px) {
+    .Equipo__tarjeta {
+        width: 90%!important;
+    }
+}
+@media (max-width: 780px) {
+    .Equipo {
+        grid-template-columns: 100%;
+        margin: auto;
+        width: 50%;
+    }
+    .Equipo__tarjeta {
+        width: 100%;
+        margin-top: 20px;
+        height: 95%!important;
+    }
+}
+
+@media (max-width: 480px) {
+    .Equipo__tarjeta {
+        width: 15rem!important;
+    }
+}
